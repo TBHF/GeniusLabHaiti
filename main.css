@@ -2604,7 +2604,7 @@ footer .bottom_menu_mobile li a { color: #FFF; text-decoration: underline; line-
 footer .bottom_menu_mobile li a:hover { text-decoration: underline; }
 
 footer .separator { border: 1px solid #f04e2d; margin-top: 30px; margin-bottom: 30px; }
-footer .site-title { color:#FFF; font-size: 12px; font-weight: 400; }
+footer .site-title { color:#FFF; font-size: 12px; font-weight: 400;}
 footer .site-title-link a { color: #FFF; font-size: 12px; text-decoration: underline; font-family: 'Open Sans'; font-weight: 400; }
 footer .site-title-link a:hover { color:#FFE900; }
 footer .newsletter { display: inline-block; width: 100%; clear: both; }
