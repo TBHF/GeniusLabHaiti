@@ -69,8 +69,8 @@ body {
 }
 
 .main_content {
-	margin-left: .8em;
-	margin-top: 25px;
+	margin-left: 4.5em;
+	margin-top: 50px;
 }
 
 article,
@@ -2167,7 +2167,10 @@ p > video {
 }
 
 header.main-header { height: 120px; position: fixed; width: 100%; z-index: 100000; top:0; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; }
-header.main-header .logo { background: url('icon_black.jpg') no-repeat left; background-size: contain; width: 213px; height: 120px; float: left; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: 20px; }
+
+header.main-header .lang_switch_fr { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -140px; margin-top: 60px; }
+header.main-header .lang_switch { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -155px; margin-top: 60px; }
+
 header.main-header ul.top_menu { font-family:'Open Sans'; height: 120px; float: left; list-style-type: none; margin: 0; line-height: 120px; letter-spacing: 1px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; }
 header.main-header ul.top_menu .submenu { display: none; background: #000; position: absolute; z-index: 999; top:80px; list-style-type: none; margin: 0; left: 0; padding-bottom: 15px; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; }
 header.main-header ul.top_menu .submenu li { line-height: 40px; white-space: nowrap; }
@@ -2590,7 +2593,7 @@ footer h1 { color:#f04e2d; font-family:'Open Sans'; font-size: 30px; text-transf
 footer p {color: #fff; font-family: 'Open Sans'}
 footer .container { max-width: 1180px; }
 footer .bottom_menu { list-style-type: none; font-family:'Open Sans'; font-size: 15px; letter-spacing: 1px; margin: 0; }
-footer .bottom_menu > li { float: left; text-transform: uppercase; margin-right: 25px; }
+footer .bottom_menu > li { float: left; text-transform: uppercase; margin-right: 25px; margin-bottom: 20px;}
 footer .bottom_menu > li a:hover { color:#f04e2d; text-decoration: none; }
 footer .bottom_menu li a { color: #FFF; }
 footer .bottom_menu li .submenu { text-transform: none; list-style-type: none; margin: 0; font-family: 'Open Sans'; }
@@ -2720,7 +2723,7 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
 	body:not(.custom-background-image):after {
 		bottom: 0;
 	}
-
+	
 	.site { margin: 0; }
 
 	.site-main {
@@ -2908,6 +2911,7 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
  * 14.2 - >= 783px
  */
 @media screen and (max-width: 1695px) {
+	
 	.short-summary { }
 	.side-title { position: relative; left:0; text-align: left; }
 	.side-title h2 { display: inline-block; padding-right: 40px; margin-bottom: 20px; width: auto; }
@@ -2923,18 +2927,29 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
 @media screen and (min-width: 768px) and (max-width: 991px) {
 	footer .newsletter { margin-top: 40px; }
 }
+
 @media screen and (min-width: 500px) and (max-width: 767px) {
 	.testimonials { height: 400px; }
 
 }
+
+/*Mobile Portrait*/
+
 @media screen and (max-width: 480px)  {
 	.upcoming-events .side-title { margin-top: 15px; }
-	.section { margin-top: 10px; margin-bottom: 20px;}
-}
+	.footer_menu { display: none; }
+	.main_content { margin-left: .8em;}
+	header.main-header .lang_switch_fr { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -110px; margin-top: 0px; }
+	header.main-header .lang_switch { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -125px; margin-top: 0px; }
+
+
+
 @media screen and (max-width: 767px) {
 	body:not(.custom-background-image).admin-bar:before {
 		/*top: 32px;*/
 	}
+
+	.main_content { margin-left: .8em;}
 }
 
 
@@ -2943,6 +2958,7 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
  */
 
 @media screen and (min-width: 56.875em) {
+
 	.site-header {
 		padding-right: 4.5455%;
 		padding-left: 4.5455%;
@@ -3369,6 +3385,7 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
  */
 
 @media screen and (min-width: 61.5625em) {
+	
 	.site-main {
 		margin-bottom: 7.0em;
 	}
@@ -3596,6 +3613,7 @@ body.page-template-template-succeed .site-content { background-color: #1B2950; b
 		line-height: 1.5217391304;
 		margin-bottom: 1.826086957em;
 	}
+
 
 	body:not(.search-results) .entry-header + .entry-summary {
 		margin-top: -0.913043478em;
