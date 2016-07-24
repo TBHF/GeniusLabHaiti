@@ -12264,6 +12264,8 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none !important;
 
   }
+    header.main-header .lang_switch_fr { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -140px; margin-top: 60px; }
+    header.main-header .lang_switch { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -155px; margin-top: 60px; }
 
 }
 
@@ -12276,6 +12278,10 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none !important;
 
   }
+
+  header.main-header .lang_switch_fr { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -110px; margin-top: 0px; }
+  header.main-header .lang_switch { background-size: contain; width: 213px; float: right; transition: all 0.6s ease; -webkit-transition: all 0.6s ease; margin-right: -125px; margin-top: 0px; }
+
 
 }
 
